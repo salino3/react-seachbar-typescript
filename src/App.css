@@ -1,0 +1,141 @@
+.App {
+    display: relative;
+      text-align: center;
+
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #254441;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: lightblue;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Form */
+
+.divForm{
+
+margin: 2em;
+border: solid  2px  trasparent;
+width: 20em;
+height: 22em;
+ box-shadow: 10px 10px 10px 10px lightblue;
+}
+
+.search-inner{
+  padding: 0.5em;
+}
+
+.divForm button{
+  background: darkgreen;
+  border-radius: 20%;
+  font-size: 70%;
+  padding: 0.5em;
+  color: lightblue;
+  border: 0;
+   box-shadow: 5px 5px 30px 1px lightblue;
+
+}
+
+.divForm button:active{
+ font-size: 65%;
+
+}
+
+.divForm span{
+  font-size: 70%;
+}
+
+.divForm input{
+
+  margin-right: 1em;
+  box-shadow: 5px 8px 30px 2px lightblue;
+  border: 0; 
+  border-radius: 20%;
+  line-height: 2em;
+font-size: 60%;
+    outline: none;
+    padding-left: 0.5em;
+    color: blue;
+    width: 15em;
+
+}
+
+.divForm input::placeholder{
+color: lightblue;
+font-size: 120%;
+
+}
+
+/* Card */
+
+.dropdown-row{
+  cursor: pointer;
+  text-align: start;
+  padding-left: 3em;
+}
+
+/* SecondPage */
+
+.divListinfo{
+  display: grid;
+  grid-template-columns: 50% 65%;
+  padding: 2em;
+border: solid  2px  trasparent;
+width: 32em;
+height: 13em;
+ box-shadow: 10px 10px 10px 10px lightblue;
+}
+
+.infofirst{
+  
+    text-align: start;
+    border: solid  2px  trasparent;
+    padding-left: 1em;
+    width: auto;
+   height: 9em;
+   box-shadow: 10px 10px 30px 6px lightblue;
+}
+
+.divImgId{
+  margin: 1em; 
+}
+
+.divImgId img{
+     box-shadow: 10px 10px 30px 6px lightblue;
+}
+
+a{
+  color: blue;
+}
+
+

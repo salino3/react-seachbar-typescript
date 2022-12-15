@@ -36,7 +36,7 @@ const Card = ({ first, setFirst }: Props) => {
               return (
                 searchTerm &&
                 (theid.includes(searchTerm) || theemail.includes(searchTerm)) &&
-                (theemail || theid) !== searchTerm
+                (theemail || theid)
               );
             })
             .map((item: any, index: any) => (
